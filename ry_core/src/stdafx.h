@@ -11,6 +11,17 @@
 // Windows 头文件: 
 #include <windows.h>
 
+#include <vector>
+#include <string>
+#include <map>
+#include <algorithm>
 
+using namespace std;
+
+#ifdef _UNICODE
+#define RYString wstring
+#else
+#define RYString string
+#endif
 
 // TODO:  在此处引用程序需要的其他头文件

@@ -10,13 +10,24 @@
 #define RY_CORE_API __declspec(dllimport)
 #endif
 
-// 此类是从 ry_core.dll 导出的
-class RY_CORE_API Cry_core {
-public:
-	Cry_core(void);
-	// TODO:  在此添加您的方法。
-};
+typedef enum
+{
+	RCS_SUCCESS,
+	RCS_SRC_ERROR,
+	RCS_COMPILER_ERROR
+} RYCompileState;
 
-extern RY_CORE_API int nry_core;
+typedef struct
+{
 
-RY_CORE_API int fnry_core(void);
+} RYCompileParams;
+
+typedef enum
+{
+	RCFP_FORBBID_ASM = 0x1,
+	RCFP_ALL = 0xff
+} RYCompileFilterParams;
+
+RYCompileState RYCompileCppToExe(__in RYString srcFile, __in RYString dstFile, __in const RYCompileParams* params = NULL);
+
+bool RYCheckSrcFile(__in RYString srcFile, __in RYCompileFilterParams filter = RCFP_ALL);
