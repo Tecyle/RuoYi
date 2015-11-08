@@ -1,0 +1,7 @@
+obj
+ipch
+*.opensdf
+*.sdf
+*.suo
+*.user
+lib
