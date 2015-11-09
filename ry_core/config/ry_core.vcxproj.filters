@@ -35,6 +35,12 @@
     <ClInclude Include="..\include\ry_core.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\ry_compiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ry_stdlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\src\ReadMe.txt" />
