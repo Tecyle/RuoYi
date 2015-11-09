@@ -41,6 +41,12 @@
     <ClInclude Include="..\include\ry_stdlib.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\ry_judger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ry_filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\src\ReadMe.txt" />

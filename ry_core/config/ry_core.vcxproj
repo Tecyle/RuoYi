@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClInclude Include="..\include\ry_compiler.h" />
     <ClInclude Include="..\include\ry_core.h" />
+    <ClInclude Include="..\include\ry_filter.h" />
+    <ClInclude Include="..\include\ry_judger.h" />
     <ClInclude Include="..\include\ry_stdlib.h" />
     <ClInclude Include="..\src\stdafx.h" />
     <ClInclude Include="..\src\targetver.h" />
