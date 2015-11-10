@@ -52,4 +52,7 @@ public:
 	virtual const RYCompileError* GetLastCompileError() = 0;
 	virtual bool SetCompileParam(RYCompilerParams param, void* data) = 0;
 	virtual void* GetCompileParam(RYCompilerParams param) = 0;
+
+	virtual bool Initialize(LPCTSTR initFile = NULL);
+	virtual void CoInitialize();
 };

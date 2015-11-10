@@ -35,5 +35,5 @@ public:
 	virtual void SetMemoryLimit(size_t memoInBytes) = 0;
 	virtual size_t GetMemoryLimit() = 0;
 
-	virtual RYRunResult Judge(LPCTSTR runableFileName, LPCTSTR inputFile, LPCTSTR outputFile);
+	virtual RYRunResult Judge(LPCTSTR runableFileName, LPCTSTR inputFile, LPCTSTR outputFile) = 0;
 };

@@ -1,4 +1,5 @@
 #pragma once
+#include <tchar.h>
 
 typedef unsigned int RYCompileErrorNumber;
 typedef int RYReturnCode;
@@ -14,3 +15,12 @@ typedef int RYReturnCode;
 #else
 #define interface struct
 #endif
+
+interface RYStream
+{
+public:
+	virtual size_t Read(LPTSTR buff, size_t maxSize);
+	virtual size_t Write(LPTSTR buff, size_t maxSize);
+};
+
+RYReturnCode RYRunProcess(LPCTSTR procName, RYStream* input, RYStream* output, RYStream* err);

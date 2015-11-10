@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="..\src\dllmain.cpp" />
     <ClCompile Include="..\src\ry_core.cpp" />
+    <ClCompile Include="..\src\ry_cpp_compiler.cpp" />
     <ClCompile Include="..\src\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -21,6 +22,7 @@
   <ItemGroup>
     <ClInclude Include="..\include\ry_compiler.h" />
     <ClInclude Include="..\include\ry_core.h" />
+    <ClInclude Include="..\include\ry_cpp_compiler.h" />
     <ClInclude Include="..\include\ry_filter.h" />
     <ClInclude Include="..\include\ry_judger.h" />
     <ClInclude Include="..\include\ry_stdlib.h" />

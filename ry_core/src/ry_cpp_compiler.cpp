@@ -1,0 +1,8 @@
+#include "stdafx.h"
+#include "ry_cpp_compiler.h"
+
+#ifdef _WINDOWS_
+//////////////////////////////////////////////////////////////////////////
+// Windows 下的 C++ 编译器使用的是 MinGW
+
+#endif

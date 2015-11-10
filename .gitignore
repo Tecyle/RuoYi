@@ -5,3 +5,4 @@ ipch
 *.suo
 *.user
 lib
+/ry_core/tools/Windows/MinGW
