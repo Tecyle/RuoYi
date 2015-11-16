@@ -30,6 +30,7 @@
     <ClInclude Include="..\src\targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\docs\oj_safety.txt" />
     <Text Include="..\src\ReadMe.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
