@@ -28,6 +28,9 @@
     <ClCompile Include="..\test_support\main.cpp">
       <Filter>test_support</Filter>
     </ClCompile>
+    <ClCompile Include="..\test\compiler_unittest.cpp">
+      <Filter>test_cases</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\test_support\stdafx_ry_core_test.h">

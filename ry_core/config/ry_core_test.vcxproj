@@ -86,6 +86,7 @@
     <ClCompile Include="..\..\..\..\navicore-workspace\gtest\src\gtest-all.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\test\compiler_unittest.cpp" />
     <ClCompile Include="..\test_support\main.cpp" />
     <ClCompile Include="..\test_support\stdafx_ry_core_test.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
