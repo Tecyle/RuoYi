@@ -1,0 +1,1 @@
+#include "stdafx_ry_core_test.h"
