@@ -13,24 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{83c3695e-0aa2-4a63-8946-b91775f8e6e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\stdafx.h">
+    <ClInclude Include="..\test_support\stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\ry_sand_box.h">
+    <ClInclude Include="..\test_support\targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\stdafx.cpp">
+    <ClCompile Include="..\test_support\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\ry_sand_box.cpp">
+    <ClCompile Include="..\test_support\stdafx.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gtest\src\gtest-all.cc">
+      <Filter>gtest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
