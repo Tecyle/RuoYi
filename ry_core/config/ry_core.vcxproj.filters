@@ -30,6 +30,9 @@
     <ClCompile Include="..\src\ry_cpp_compiler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\ry_oj_sand_box.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\stdafx.h">
@@ -54,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\include\ry_cpp_compiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ry_oj_sand_box.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
