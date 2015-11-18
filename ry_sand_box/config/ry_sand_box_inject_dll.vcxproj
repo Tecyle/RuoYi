@@ -54,7 +54,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\lib\</OutDir>
-    <IntDir>..obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir>..\obj\$(ProjectName)\$(Configuration)\</IntDir>
     <TargetName>$(ProjectName)_win32d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
