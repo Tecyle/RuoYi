@@ -13,26 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="gtest">
-      <UniqueIdentifier>{83c3695e-0aa2-4a63-8946-b91775f8e6e9}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\test_support\targetver.h">
+    <ClInclude Include="..\inject_support\targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\test_support\stdafx_ry_sand_box_test.h">
+    <ClInclude Include="..\inject_support\stdafx_inject_dll.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\test_support\main.cpp">
+    <ClCompile Include="..\inject_support\dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gtest\src\gtest-all.cc">
-      <Filter>gtest</Filter>
+    <ClCompile Include="..\inject_support\ry_sand_box_inject_dll.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\test_support\stdafx_ry_sand_box_test.cpp">
+    <ClCompile Include="..\inject_support\stdafx_inject_dll.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
